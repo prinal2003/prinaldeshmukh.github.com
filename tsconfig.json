@@ -6,7 +6,6 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
         "rootDir": "./src",
         "outDir": "./build"
     },

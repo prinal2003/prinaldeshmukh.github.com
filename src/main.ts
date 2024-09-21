@@ -46,8 +46,10 @@ import { sRGBEncoding } from 'three/src/constants';
 
 const isNarrowScreen = !!navigator.platform.match(/iPhone|iPod/) || !!window.matchMedia('(max-width: 736px)').matches;
 
+import { CustomMeshPhysicalShader } from './shaders/custom_meshphysical.glsl';
+
 const shaders = {
-    physical: require('./shaders/custom_meshphysical.glsl').CustomMeshPhysicalShader,
+    physical: CustomMeshPhysicalShader,
     // glowy: require('./shaders/sphere-glowy.frag').default,
     // green: require('./shaders/sphere-green.frag').default,
     // normal: require('./shaders/sphere-normal.frag').default,
