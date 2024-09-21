@@ -4,3 +4,4 @@ node_modules/
 target/deploy/
 npm-debug.log
 Gemfile.lock
+dist
