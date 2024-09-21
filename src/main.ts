@@ -43,10 +43,9 @@ import { sRGBEncoding } from 'three/src/constants';
 // import { NormalMapShader } from 'three/examples/jsm/shaders/NormalMapShader';
 // import { MeshPhysicalMaterial } from 'three/src/materials/MeshPhysicalMaterial';
 // import * as Nodes from 'three/examples/jsm/nodes/Nodes';
+import { CustomMeshPhysicalShader } from './shaders/custom_meshphysical.glsl';
 
 const isNarrowScreen = !!navigator.platform.match(/iPhone|iPod/) || !!window.matchMedia('(max-width: 736px)').matches;
-
-import { CustomMeshPhysicalShader } from './shaders/custom_meshphysical.glsl';
 
 const shaders = {
     physical: CustomMeshPhysicalShader,
